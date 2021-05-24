@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-# 박은성 Eunseong Park 
+# 박은성 | Eunseong Park 
 
 <div class="posts">
   <ul>
@@ -11,6 +11,21 @@ title: Home
       <li>{{ post.date | date: '%Y-%m-%d'}} <a href="{{ post.url }}">{{ post.title }}</a></li>    
   {% endfor %}
   </ul>
+</div>
+
+<div class="posts">
+  {% for post in paginator.posts %}
+  <article class="post">
+    <h1 class="post-title">
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title }}
+      </a>
+    </h1>
+    <time datetime="{{ post.date | date_to_xmlschema }}" class="post-date">{{ post.date | date_to_string }}</time>
+
+    {{ post.content }}
+  </article>
+  {% endfor %}
 </div>
 
 <div class="pagination">
