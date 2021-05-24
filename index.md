@@ -5,11 +5,13 @@ title: Home
 
 # 박은성 Eunseong Park 
 
-<ul>
-{% for post in paginator.posts %}
-     <li>{{ post.date | date: '%Y-%m-%d'}} <a href="{{ post.url }}">{{ post.title }}</a></li>    
-{% endfor %}
-</ul>
+<div class="posts">
+  <ul>
+  {% for post in paginator.posts %}
+      <li>{{ post.date | date: '%Y-%m-%d'}} <a href="{{ post.url }}">{{ post.title }}</a></li>    
+  {% endfor %}
+  </ul>
+</div>
 
 <div class="pagination">
   {% if paginator.next_page %}
