@@ -5,6 +5,7 @@ title: Home
 
 # 박은성 | Eunseong Park 
 
+<!--
 <div class="posts">
   <ul>
   {% for post in paginator.posts %}
@@ -12,6 +13,7 @@ title: Home
   {% endfor %}
   </ul>
 </div>
+-->
 
 <div class="posts">
   {% for post in paginator.posts %}
