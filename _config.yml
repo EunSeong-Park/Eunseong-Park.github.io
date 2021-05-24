@@ -1,5 +1,5 @@
 # Setup
-title: "%esp"
+title: "%esp: Eunseong Park"
 url: https://esp-ark.com
 paginate: 1
 baseurl: ""
@@ -33,7 +33,7 @@ sass:
 # Specify the author for blog posts
 author:
   name: Eunseong Park
-  url: https://twitter.com/mdo
+  url: esp-ark.com
   email: noonchee0@gmail.com
 
 # Custom vars
