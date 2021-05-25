@@ -14,8 +14,7 @@ title: Home
 {% endfor %}
 </ul>
 
-
-<div class="pagination">
+<span>
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: relative_url }}">Next Posts</a>
   {% else %}
@@ -27,4 +26,4 @@ title: Home
   {% else %}
     <span>Prev Posts</span>
   {% endif %}
-</div>
+</span>
