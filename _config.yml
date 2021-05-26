@@ -1,9 +1,10 @@
 # Setup
-title: "%esp: Eunseong Park"
+title: "$esp"
 url: https://esp-ark.com
 paginate: 5
 baseurl: ""
 permalink: pretty
+description: My precious blog: computer science, fitness, food, and daily life
 
 # Gems
 plugins:
@@ -40,9 +41,6 @@ author:
 version: 3.0.0
 
 # Navbar page list
-nav:
-  - title: About
-    url: /about
-    
-  - title: Posts
-    url: /posts
+#nav:
+#  - title: About
+#    url: /about
