@@ -1,6 +1,5 @@
 ---
-layout: post
-title: "REDIRECT"
+layout: page
 permalink: /itinerary
 ---
 
