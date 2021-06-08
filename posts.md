@@ -7,7 +7,7 @@ title: Posts
 
 <ul>
 {% for post in site.posts %}
-  {% if post.title %}
+  {% if post.title != "" %}
     <li>{{ post.date | date: '%Y-%m-%d'}} <a href="{{ post.url }}">{{ post.title }}</a></li>
   {% endif %}
 {% endfor %}
