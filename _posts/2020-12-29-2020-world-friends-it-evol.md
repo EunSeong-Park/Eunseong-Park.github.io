@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "2020 World Friends IT E-Volunteer"
-permalink: /itinerary
+permalink: /wfk-itinerary
 ---
 
 ![](/post_image/20201229/itinerary.jpg)
