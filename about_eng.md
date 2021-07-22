@@ -3,8 +3,8 @@ layout: default
 title: "About Me"
 permalink: /about_me_ENG
 ---
-
-## Eunseong Park
+<br>
+# Eunseong Park
 
 - Fourth-year undergraduate student at UNIST
 - Department of Computer Science and Engineering
