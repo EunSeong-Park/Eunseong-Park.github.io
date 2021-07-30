@@ -1,2 +1,2 @@
 # Blog
-hi
+main blog
