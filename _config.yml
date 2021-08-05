@@ -1,7 +1,7 @@
 # Setup
 title: "$esp"
 url: https://esp-ark.com
-paginate: 5
+paginate: 10
 baseurl: ""
 permalink: pretty
 description: "My precious blog: computer science, fitness, food, and daily life"
