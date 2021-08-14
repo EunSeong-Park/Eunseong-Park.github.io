@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "About Me"
-permalink: /about_me_ENG
+permalink: /about-me
 ---
 <br>
 # Eunseong Park
